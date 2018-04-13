@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<d>
+	<id>0</id>
+	<s>Are you a soldier?</s>
+	<o>
+		<c>Continue</c>
+		<nextId>1</nextId>
+	</o>
+</d>
+<d>
+	<id>1</id>
+	<s> </s>
+	<o>
+		<c>Yes</c>
+		<nextId>2</nextId>
+	</o>
+	<o>
+		<c>No</c>
+		<nextId>3</nextId>
+	</o>
+</d>
+<d>
+	<id>2</id>
+	<s>Then grab a weapon and fight!</s>
+	<o>
+		<c>End</c>
+		<nextId>-1</nextId>
+	</o>
+</d>
+<d>
+	<id>3</id>
+	<s>Doesn't matter, go fight!</s>
+	<o>
+		<c>End</c>
+		<nextId>-1</nextId>
+	</o>
+</d>
+</doc>
